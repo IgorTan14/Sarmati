@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarmati</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="wrapper">
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a class="header__logo" href="index.html">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="about.html">Sarmati</a>
+                    </li>
+                    <li class="header__menu-item header__menu-item--more">
+                        <!-- <a href="#">Очковые линзы</a> -->
+                       Очковые линзы
+                    
+                        <nav class="header__menu-submenu">
+                            <h6 class="header__menu-submenu-title">Очковые линзы</h6>
+                            <ul class="header__menu-submenu-list">
+                                <li class="header__menu-submenu-item">
+                                    <a href="Premium_Perfect.html">Basic  Zoom</a>
+                                </li>
+                                <li class="header__menu-submenu-item">
+                                    <a href="Premium_Perfect.html">Optima Libra</a>
+                                </li>
+                                <li class="header__menu-submenu-item">
+                                    <a href="Premium_Perfect.html">Optima Vexill</a>
+                                </li>
+                                <li class="header__menu-submenu-item">
+                                    <a href="Premium_Perfect.html">Optima Evo</a>
+                                </li>
+                                <li class="header__menu-submenu-item">
+                                    <a href="Premium_Perfect.html">Premium Singul</a>
+                                </li>
+                                <li class="header__menu-submenu-item">
+                                    <a href="Premium_Perfect.html">Premium Perfect</a>
+                                </li>
+                            </ul>
+                        </nav>
+            
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="brands.html">Бренды</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="blog.html">Статьи</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            
+            <a href="addresses.html" class="header__btn btn">Адреса салонов</a>
+        </div>
+    </div>
+</header>
+<div class="burger-content">
+    <ul class="burger-content__menu">
+        <li class="burger-content__menu-item">
+            <a href="about.html">Компания</a>
+        </li>
+        <li class="burger-content__menu-item">
+            <a href="Progressive_lenses.html">Очковые линзы</a>
+        </li>
+        <li class="burger-content__menu-item">
+            <a href="brands.html">Бренды</a>
+        </li>
+        <li class="burger-content__menu-item">
+            <a href="blog.html">Статьи</a>
+        </li>
+      
+        <a href="addresses.html" class="burger-content__btn btn">Адреса салонов</a>
+    </ul>
+</div>
+
+<main class="main">
+    <div class="container">
+        <div class="page-top">
+            <img src="images/addresses-top.jpg" alt="about">
+            <h1 class="page-top__title">Адреса салонов</h1>
+        </div>
+    </div>
+
+    <div class="breadcumbs">
+        <div class="container">
+            <div class="breadcumbs__inner">
+                <ul class="breadcumbs__list">
+                    <li class="breadcumbs__item breadcumbs__item--active" style="font-weight: 700;">
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li class="breadcumbs__item ">
+                        <a href="about.html">Адреса салонов</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="addresses">
+        <div class="container">
+            <h3 class="addresses__title">Найти ближайший салон «Sarmati»</h3>
+            <div class="addresses__top">
+                <div class="addresses__select">
+                    <div class="dropdown">
+                    <button class="dropdown-btn">Киев</button>
+                    <div class="dropdown-arr">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" viewBox="0 0 15 9" fill="none">
+                            <path d="M1 0.640625L7.6401 7.28072L14.2802 0.640624" stroke="black" stroke-width="1.5"/>
+                            </svg>
+                    </div>
+                    <ul class="dropdown__list">
+                        <li class="dropdown__list-item" data-value="house">Киев</li>
+                        <li class="dropdown__list-item" data-value="bath">Кривой Рог</li>
+                        <li class="dropdown__list-item" data-value="garage">Днепр</li>
+                        <li class="dropdown__list-item" data-value="canopy">Львов</li>
+                        <li class="dropdown__list-item" data-value="commercial">Сумы</li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">Харьков</li>
+                    </ul>
+                    <input class="dropdown__input-hidden" type="text" name="select-category">
+                </div>
+                </div>
+                <div class="addresses__choose">
+                    <div class="addresses__choose-item">Карта</div>
+                    <div class="addresses__choose-item active">Список</div>
+                </div>
+            </div>
+            <div class="addresses__wrapper">
+                <div class="addresses__item">
+                    <h5 class="addresses__item-title">Павла Скоропадского 129</h5>
+                    <div class="addresses__item-inner">
+                    <div class="addresses__item-location">
+                        <div class="addresses__item-street">Павла Скоропадского 129</div>
+                        <button class="addresses__item-btn btn">На карте</button>
+                    </div>
+                    <div class="addresses__item-tell">
+                        <a href="3806335333">+38 063 35 333</a>
+                    </div>
+                    <div class="addresses__item-schedule">
+                        <p>Пн - Пт c 09:00 до 20:00</p>
+                        <p>Сб c 09:00 до 19:00</p>
+                        <p>Вс c 09:00 до 19:00</p>
+                    </div>
+                </div>
+                <span class="addresses__item-line"></span>
+            </div>
+
+            <div class="addresses__item">
+                <h5 class="addresses__item-title">Тараса Шевченко 21</h5>
+                <div class="addresses__item-inner">
+                <div class="addresses__item-location">
+                    <div class="addresses__item-street">Тараса Шевченко 218</div>
+                    <button class="addresses__item-btn btn">На карте</button>
+                </div>
+                <div class="addresses__item-tell">
+                    <a href="3806335333">+38 063 35 333</a>
+                </div>
+                <div class="addresses__item-schedule">
+                    <p>Пн - Пт c 09:00 до 20:00</p>
+                    <p>Сб c 09:00 до 19:00</p>
+                    <p>Вс c 09:00 до 19:00</p>
+                </div>
+            </div>
+            <span class="addresses__item-line"></span>
+        </div>
+
+        <div class="addresses__item">
+            <h5 class="addresses__item-title">Павла Скоропадского 129</h5>
+            <div class="addresses__item-inner">
+            <div class="addresses__item-location">
+                <div class="addresses__item-street">Павла Скоропадского 129</div>
+                <button class="addresses__item-btn btn">На карте</button>
+            </div>
+            <div class="addresses__item-tell">
+                <a href="3806335333">+38 063 35 333</a>
+            </div>
+            <div class="addresses__item-schedule">
+                <p>Пн - Пт c 09:00 до 20:00</p>
+                <p>Сб c 09:00 до 19:00</p>
+                <p>Вс c 09:00 до 19:00</p>
+            </div>
+        </div>
+        <span class="addresses__item-line"></span>
+    </div>
+
+    <div class="addresses__item">
+        <h5 class="addresses__item-title">Павла Скоропадского 129</h5>
+        <div class="addresses__item-inner">
+        <div class="addresses__item-location">
+            <div class="addresses__item-street">Павла Скоропадского 129</div>
+            <button class="addresses__item-btn btn">На карте</button>
+        </div>
+        <div class="addresses__item-tell">
+            <a href="3806335333">+38 063 35 333</a>
+        </div>
+        <div class="addresses__item-schedule">
+            <p>Пн - Пт c 09:00 до 20:00</p>
+            <p>Сб c 09:00 до 19:00</p>
+            <p>Вс c 09:00 до 19:00</p>
+        </div>
+    </div>
+    <span class="addresses__item-line"></span>
+</div>
+
+        </div>
+    </div>
+    </section>
+    
+</main>
+<footer class="footer">
+    <div class="footer__wrapper">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__item">
+                <h6 class="footer__item-title">Прогрессивные линзы</h6>
+                    <nav>
+                        <ul class="footer__item-list">
+                            <li class="footer__item-list-item">
+                                <a href="#">Basic ZOOM</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optima EVO</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optime LIBRA</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optime Vexill</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Premium SIGNAL</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Premium PERFECT</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="footer__item">
+                <h6 class="footer__item-title"> Очки для чтения</h6>
+                    <nav>
+                        <ul class="footer__item-list">
+                            <li class="footer__item-list-item">
+                                <a href="#">Basic ZOOM</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optima EVO</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optime LIBRA</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Premium SIGNAL</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Premium PERFECT</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="footer__item">
+                <h6 class="footer__item-title">Детские очки</h6>
+                    <nav>
+                        <ul class="footer__item-list">
+                            <li class="footer__item-list-item">
+                                <a href="#">Basic ZOOM</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optima EVO</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optime LIBRA</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Premium SIGNAL</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Premium PERFECT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__item">
+                    <h6 class="footer__item-title">Солнцезащитные очки</h6>
+                        <nav>
+                            <ul class="footer__item-list">
+                                <li class="footer__item-list-item">
+                                    <a href="#">Basic ZOOM</a>
+                                </li>
+                                <li class="footer__item-list-item">
+                                    <a href="#">Optima EVO</a>
+                                </li>
+                                <li class="footer__item-list-item">
+                                    <a href="#">Optime LIBRA</a>
+                                </li>
+                                <li class="footer__item-list-item">
+                                    <a href="#">Premium SIGNAL</a>
+                                </li>
+                                <li class="footer__item-list-item">
+                                    <a href="#">Premium PERFECT</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__item">
+                        <h6 class="footer__item-title">Очки для дали</h6>
+                            <nav>
+                                <ul class="footer__item-list">
+                                    <li class="footer__item-list-item">
+                                        <a href="#">Basic ZOOM</a>
+                                    </li>
+                                    <li class="footer__item-list-item">
+                                        <a href="#">Optima EVO</a>
+                                    </li>
+                                    <li class="footer__item-list-item">
+                                        <a href="#">Optime LIBRA</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__item">
+                            <h6 class="footer__item-title">Компьютерные очки</h6>
+                                <nav>
+                                    <ul class="footer__item-list">
+                                        <li class="footer__item-list-item">
+                                            <a href="#">Basic ZOOM</a>
+                                        </li>
+                                        <li class="footer__item-list-item">
+                                            <a href="#">Optima EVO</a>
+                                        </li>
+                                        <li class="footer__item-list-item">
+                                            <a href="#">Optime LIBRA</a>
+                                        </li>
+                                        <li class="footer__item-list-item">
+                                            <a href="#">Premium SIGNAL</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="footer__item">
+                                <h6 class="footer__item-title">Очки для спорта</h6>
+                                    <nav>
+                                        <ul class="footer__item-list">
+                                            <li class="footer__item-list-item">
+                                                <a href="#">Basic ZOOM</a>
+                                            </li>
+                                            <li class="footer__item-list-item">
+                                                <a href="#">Optima EVO</a>
+                                            </li>
+                                            <li class="footer__item-list-item">
+                                                <a href="#">Optime LIBRA</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="footer__item">
+                                    <h6 class="footer__item-title">Индивидуальные очки</h6>
+                                        <nav>
+                                            <ul class="footer__item-list">
+                                                <li class="footer__item-list-item">
+                                                    <a href="#">Basic ZOOM</a>
+                                                </li>
+                                                <li class="footer__item-list-item">
+                                                    <a href="#">Optima EVO</a>
+                                                </li>
+                                                <li class="footer__item-list-item">
+                                                    <a href="#">Optime LIBRA</a>
+                                                </li>
+                                                <li class="footer__item-list-item">
+                                                    <a href="#">Premium SIGNAL</a>
+                                                </li>
+                                                <li class="footer__item-list-item">
+                                                    <a href="#">Premium PERFECT</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="footer__item">
+                                        <h6 class="footer__item-title">Очки для чтения</h6>
+                                            <nav>
+                                                <ul class="footer__item-list">
+                                                    <li class="footer__item-list-item">
+                                                        <a href="#">Basic ZOOM</a>
+                                                    </li>
+                                                    <li class="footer__item-list-item">
+                                                        <a href="#">Optima EVO</a>
+                                                    </li>
+                                                    <li class="footer__item-list-item">
+                                                        <a href="#">Optime LIBRA</a>
+                                                    </li>                                          
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="footer__item">
+                                            <h6 class="footer__item-title">Очки для вождения</h6>
+                                                <nav>
+                                                    <ul class="footer__item-list">
+                                                        <li class="footer__item-list-item">
+                                                            <a href="#">Basic ZOOM</a>
+                                                        </li>
+                                                        <li class="footer__item-list-item">
+                                                            <a href="#">Optima EVO</a>
+                                                        </li>                                       
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                            <div class="footer__item">
+                <h6 class="footer__item-title">Очки для спорта</h6>
+                    <nav>
+                        <ul class="footer__item-list">
+                            <li class="footer__item-list-item">
+                                <a href="#">Basic ZOOM</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optima EVO</a>
+                            </li>
+                            <li class="footer__item-list-item">
+                                <a href="#">Optime LIBRA</a>
+                            </li>                                          
+                        </ul>
+                    </nav>
+                </div>
+        </div>
+    </div>
+</div>
+        <div class="footer-header">
+            <div class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <a class="header__logo" href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <nav class="header__menu">
+                            <ul class="header__menu-list">
+                                <li class="header__menu-item">
+                                    <a class="header__menu-link" href="about.html">Компания</a>
+                                </li>
+                                <li class="header__menu-item header__menu-item--more">
+                                    <!-- <a href="#">Очковые линзы</a> -->
+                                   Очковые линзы
+                                
+                                    <nav class="header__menu-submenu">
+                                        <h6 class="header__menu-submenu-title">Очковые линзы</h6>
+                                        <ul class="header__menu-submenu-list">
+                                            <li class="header__menu-submenu-item">
+                                                <a href="Premium_Perfect.html">Basic  Zoom</a>
+                                            </li>
+                                            <li class="header__menu-submenu-item">
+                                                <a href="Premium_Perfect.html">Optima Libra</a>
+                                            </li>
+                                            <li class="header__menu-submenu-item">
+                                                <a href="Premium_Perfect.html">Optima Vexill</a>
+                                            </li>
+                                            <li class="header__menu-submenu-item">
+                                                <a href="Premium_Perfect.html">Optima Evo</a>
+                                            </li>
+                                            <li class="header__menu-submenu-item">
+                                                <a href="Premium_Perfect.html">Premium Singul</a>
+                                            </li>
+                                            <li class="header__menu-submenu-item">
+                                                <a href="Premium_Perfect.html">Premium Perfect</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                        
+                                </li>
+                                <li class="header__menu-item">
+                                    <a href="brands.html">Бренды</a>
+                                </li>
+                                <li class="header__menu-item">
+                                    <a href="blog.html">Статьи</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="addresses.html" class="header__btn btn">Адреса салонов</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+</footer>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
